@@ -23,33 +23,33 @@ body {
   text-transform: uppercase;
 }
 
-.resume {
+.cv {
   width: 800px;
   height: auto;
   display: flex;
   margin: 50px auto;
 }
 
-.resume .resume_left {
+.cv .cv_left_bar {
   width: 280px;
   background: darkgrey;
 }
 
-.resume .resume_left .resume_profile {
+.cv .cv_left_bar .cv_left_photo {
   width: 100%;
   height: 280px;
 }
 
-.resume .resume_left .resume_profile img {
+.cv .cv_left_bar .cv_left_photo img {
   width: 100%;
   height: 100%;
 }
 
-.resume .resume_left .resume_content {
+.cv .cv_left_bar .cv_main {
   padding: 0 25px;
 }
 
-.resume .resume_left .bold {
+.cv .cv_left_bar .bold {
   color: #fff;
 }
 b   {
@@ -58,22 +58,22 @@ b   {
 }
 
 
-.resume .resume_item {
+.cv .cv_items {
   padding: 25px 0;
   border-bottom: 2px solid #b1eaff;
 }
 
 
 
-.resume .resume_left ul li:last-child {
+.cv .cv_left_bar ul li:last-child {
   margin-bottom: 0;
 }
 
-.resume .resume_left ul li .data {
+.cv .cv_left_bar ul li .data {
   color: #b1eaff;
 }
 
-.resume .resume_left .resume_skills ul li {
+.cv .cv_left_bar .cv_skills ul li {
   display: flex;
   margin-bottom: 10px;
   color: #b1eaff;
@@ -81,12 +81,12 @@ b   {
   align-items: center;
 }
 
-.resume .resume_left .resume_skills ul li .skill_name {
+.cv .cv_left_bar .cv_skills ul li {
   width: 25%;
 
 }
 
-.resume .resume_left .resume_skills ul li .skill_progress {
+.cv .cv_left_bar .cv_skills ul li  {
   width: 60%;
   margin: 0 5px;
   height: 5px;
@@ -97,12 +97,13 @@ b   {
 
 
 
-.resume .resume_left .resume_social .semi-bold {
+
+.cv .cv_left_bar .semi-bold {
   color: darkblue;
   margin-bottom: 3px;
 }
 
-.resume .resume_right {
+.cv .resume_right {
   width: 520px;
   background: darkblue;
   padding: 25px;
